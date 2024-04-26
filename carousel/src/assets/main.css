@@ -71,7 +71,7 @@ body{
   border: none;
   outline: none;
   color: rgb(207, 207, 207);
-  font-size: 18px;
+  font-size: 25px;
   cursor: pointer;
   transition: all 0.2s;
 }
