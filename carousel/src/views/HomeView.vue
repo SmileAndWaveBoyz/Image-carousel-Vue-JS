@@ -19,7 +19,7 @@ import TheWelcome from '../components/TheWelcome.vue'
     </div>
 
     <div class="dotContainer">
-      <button v-for="(dot, index) in numberOfSlidesArray" :key="index" class="dot" :class="{ active: index === activeSlide }" @click="goToSlide(index)">○</button>
+      <button v-for="(dot, index) in numberOfSlidesArray" :key="index" class="dot" :class="{ active: index === activeSlide }" @click="goToSlide(index)">•</button>
     </div>
     
     <div class="carousel" ref="carousel" @scroll="handleScroll">
